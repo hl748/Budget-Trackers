@@ -1,9 +1,8 @@
-//   From D
+  
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
-const { findOne } = require("./models/transaction.js");
 
 const PORT = process.env.PORT || 3000;
 
@@ -20,8 +19,7 @@ app.use(express.static("public"));
 let MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/budget";
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
-  useFindAndModify: false,
-  useFindAndModify: findOne;
+  useFindAndModify: false
 });
 
 // routes
