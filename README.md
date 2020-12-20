@@ -1,4 +1,4 @@
-# Project Title
+# Budget Tracker
 
 An application that allows users to track their expenses with or without an internet connection
 
