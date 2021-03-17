@@ -2,6 +2,8 @@
 
 An application that allows users to track their expenses with or without an internet connection
 
+Deployed application: https://floating-scrubland-61493.herokuapp.com/
+
 ## Getting Started
 
 Clone the repository and run npm i in the command line. Run npm start and open the application.
