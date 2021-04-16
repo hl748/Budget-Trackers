@@ -1,6 +1,6 @@
 # Budget Tracker
 
-An application that allows users to track their expenses with or without an internet connection
+An expense-tracking application. Expenses are stored in IndexedDB for offline usage. 
 
 Deployed application: https://floating-scrubland-61493.herokuapp.com/
 
